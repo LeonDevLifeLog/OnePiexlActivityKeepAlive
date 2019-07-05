@@ -23,6 +23,7 @@
         </activity>
         <activity
             android:name=".OnePixelActivity"
+            android:excludeFromRecents="true"
             android:configChanges="orientation|keyboard|screenSize"
             android:launchMode="singleInstance"
             android:theme="@style/OnePixelTheme" />
